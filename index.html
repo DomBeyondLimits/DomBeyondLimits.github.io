@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dombeyondlimits Coaching</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafc;
+            color: #2c3e50;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .profile-photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 20px 0;
+            color: #34495e;
+        }
+
+
+        h2 {
+            font-size: 22px;
+            margin: 20px 0;
+            color: #4879c3;
+        }
+
+
+        .offer {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        .offer h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #858585;
+        }
+
+        .price {
+            font-size: 20px;
+            color: #16a085;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .sessions {
+            margin: 10px 0;
+            color: #7f8c8d;
+        }
+
+        .contact {
+            margin: 20px 0;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .contact a img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .contact a[href^="mailto"] img {
+            width: 40px;
+            height: 30px;
+        }
+
+        .action-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .action-button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+            text-align: center;
+        }
+
+        #contact {
+            scroll-margin-top: 80px; /* Adds space above the anchor when scrolling */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Foto von Dominik" class="profile-photo">
+        <h1>DomBeyondLimits </h1>
+        <h2>Selfconsciousness Coaching</h2>
+
+
+        <div class="offer">
+            <h2>1 Woche Coaching</h2>
+            <p class="price">550€</p>
+            <p class="sessions">Täglich 1 Sitzung</p>
+        </div>
+
+        <!--<a href="#contact" class="action-button">Jetzt buchen</a>-->
+
+        <div id="contact" class="contact">
+            <h3></h3>
+            <a href="https://wa.me/123456789" target="_blank">
+                <img src="WhatsApp.svg" alt="WhatsApp">
+            </a>
+            <a  href="mailto:Dominik@example.com" target="_blank">
+                <img id="email" src="mail.png" alt="Email">
+            </a>
+            <a href="https://www.instagram.com/dombeyondlimits/" target="_blank">
+                <img src="Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Dominik's Coaching. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
